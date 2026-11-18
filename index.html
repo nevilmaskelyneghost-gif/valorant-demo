@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT - Rankini Yükselt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="page" id="page1">
+        <div class="logo">VALORANT</div>
+        <p class="subtitle">RANKINI YÜKSELT</p>
+        <p class="notice">valarant com</p>
+
+        <button onclick="showPage(2)">
+            RANKINI YÜKSELT
+        </button>
+    </main>
+
+    <main class="page hidden" id="page2">
+        <div class="logo">VALORANT</div>
+        <h2>DEMO FORMU</h2>
+        <p class="notice">Yalnızca bilgiler kullanın.</p>
+
+        <form id="demoForm">
+            <label>E-posta</label>
+            <input type="email" id="email"
+                   placeholder="ornek@gmail.com" required>
+
+            <label>Telefon Numarası</label>
+            <input type="tel" id="phone"
+                   placeholder="05000000000" required>
+
+            <label>Şifre (Demo)</label>
+            <input type="password" id="password"
+                   placeholder="şifre" required>
+
+            <p class="notice">
+                valarant.com.
+            </p>
+
+            <button type="submit">TAMAM</button>
+        </form>
+    </main>
+
+    <main class="page hidden" id="page3">
+        <div class="logo">VALORANT</div>
+        <div class="check">✓</div>
+        <h2>BAŞARIYLA TAMAMLANDI</h2>
+
+        <p>Demo işlemi başarıyla tamamlandı.</p>
+        <p class="notice">1 saat sonra hesapiniza girin .</p>
+
+        <button onclick="showPage(1)">ANA SAYFA</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
